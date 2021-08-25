@@ -1,0 +1,274 @@
+header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: static;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: rgba(71, 67, 67, 0.4);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+  }
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    text-shadow: 0 0 10px rgb(252, 247, 247);
+    position: sticky;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgb(252, 247, 247);
+  }
+  
+  header nav ul li a:hover {
+    border-radius: 15px;
+    text-shadow: none;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  /* HERO STYLES START */
+.hero {
+  background-image: url(./images/hero-image.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+  width: auto;
+  height: 55vh;
+}
+
+.hero-cta {
+  width: auto;
+  text-align: right;
+  margin: 6.5%;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.hero-cta p {
+  text-align: center;
+  font-size: 55px;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-cta h2 {
+  text-align: center;
+  font-size: 55px;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.flex-row {
+  display: flex;
+  background-color: rgba(71, 67, 67, 0.4);
+}
+
+a {
+  font-size: 26px;
+  border: blanchedalmond;
+}
+
+
+.flex-row1, .flex-row3, .flex-row4 {
+  display: flex;
+  width: 100%;
+}
+
+
+.all-me p {
+  display: flex;
+  margin: 40px 50px 0px 30px;
+  font-size: 28px;
+  padding: auto;
+}
+
+.all-me h4 {
+  display: flex;
+  margin: 60px auto 0px 30px;
+  font-size: 18px;
+  border-style:solid;
+  padding: 0px auto 200px 50px;
+}
+
+.section-title {
+  display: flex;
+  font-size: 48px;
+  border-right: 3px solid;
+  padding-bottom: 30px;
+  padding-right: 10px;
+  padding-left: 60px;
+  text-align: right;
+  width: 10%;
+}
+
+.section-title-2 {
+  display: flex;
+  font-size: 48px;
+  border-right: 3px solid;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  text-align: right;
+  width: 10%;
+  color: whitesmoke;
+  line-height: 100px;
+}
+.first-app {
+  background-image: url(./images/hero-image.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  background-attachment: fixed;
+  background-position: 80%;
+  width: 100%;
+  height: 25vh;
+}
+.container {
+  background-image: url(./images/hero-image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 85vh;
+}
+
+.box-1 {
+  background-image: url(./images/runbud.jpg);
+  display: flex;
+  width: 1600px;
+  height: 300px;
+  border: 1px solid;
+  align-items: center;
+  margin-left: 20px;
+  color: black;
+  background-size: cover;
+
+}
+
+.box-2 {
+  background-image: url(./images/calc.jpg);
+  background-size: cover;
+  display: flex;
+  width: 780px;
+  height: 200px;
+  border: 1px solid;
+  align-items: center;
+  margin-left: 30px;
+  color: black;
+  position: absolute;
+  right: 75px;
+}
+
+.box-3 {
+  background-image: url(./images/recren.jpg);
+  background-size: cover;
+  display: flex;
+  width: 780px;
+  height: 200px;
+  border: 1px solid;
+  align-items: center;
+  margin-left: 30px;
+  color: black;
+  position: absolute;
+  right: 895px;
+}
+
+.box-4 {
+  background-image: url(./images/header.jpg);
+  background-size: cover;
+  display: flex;
+  width: 780px;
+  height: 200px;
+  border: 1px solid;
+  align-items: center;
+  margin-left: 30px;
+  color: black;
+  position: absolute;
+  right: 75px;
+  top: 1450px;
+}
+
+.box-5 {
+  background-image: url(./images/porbacpic.jpg);
+  background-size: cover;
+  display: flex;
+  width: 780px;
+  height: 200px;
+  border: 1px solid;
+  align-items: center;
+  margin-left: 30px;
+  color: black;
+  position: absolute;
+  right: 895px;
+  top: 1450px;
+}
+
+ a:hover {
+   background-color: rgba(246, 250, 2, .50);
+   color: rgb(255, 2, 2);
+   width: 20px;
+   height: auto;
+   border: tan;
+   font-size: 28px;
+ }
+
+ .find {
+   width: 1900px;
+   border: 1px;
+   
+ }
+
+ footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-right: 100px;
+  padding-top: 50px;
+}
+
+footer nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgb(252, 247, 247);
+}
+
+footer nav ul li a:hover {
+  border-radius: 15px;
+  text-shadow: black;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+footer u {
+  font-size: 28px;
+}
